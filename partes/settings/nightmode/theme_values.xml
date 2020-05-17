@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *
+ * Copyright (C) 2020, xyzscape prjkt
+ * Copyright (C) 2020, COSTANTINO MOD
+ *
+-->
+<MIUI_Theme_Values>
+	
+<string name="xiaomi_account">iCloud</string>
+<string name="my_device">Mi iPhone</string>
+<string name="wifi_tether_settings_title">Punto de Acceso Personal</string>
+<string name="home_title">Pantalla de Inicio</string>
+<string name="lock_screen_display_category_name">Face ID &amp; Código de Acceso</string>
+<string name="lock_screen_settings_title">Face ID &amp; Código de Acceso</string>
+<string name="sound_vibrate_settings">Sonidos &amp; Hápticos</string>
+<string name="do_not_disturb_mode">No Molestar</string>
+<string name="usage_state_app_timer">Tiempo de Pantalla</string>
+<string name="display_settings">Pantalla &amp; Brillo</string>
+<string name="other_advanced_settings">General</string>
+<string name="wallpaper_settings_title">Fondo de Pantalla</string>
+<string name="sim_management_title">Celular</string>
+<string name="feedback_settings">Retroalimentación</string>
+<string name="password_security_settings_title">Contraseñas Seguridad</string>
+<string name="sync_settings">Cuentas &amp; Sincronización</string>
+<string name="miui_special_feature">Características Especiales</string>
+<string name="security_status">Sugerencias de ID de Apple</string>
+<string name="power_usage_summary_title">Batería</string>
+<string name="power_usage_summary_title_new">Batería</string>
+<string name="date_and_time_settings_title">Fecha &amp; Hora</string>
+<string name="language_keyboard_settings_title">Idiomas &amp; Entrada</string>
+<string name="language_settings">Idiomas &amp; Entrada</string>
+<string name="infinity_display_title">Pantalla Completa</string>
+<string name="key_shortcut_settings_title">Atajos de Botones</string>
+<string name="led_settings">Luz de Notificación</string>
+<string name="touch_assistant">Toque de Asistencia</string>
+<string name="handy_mode">Modo de una Mano</string>
+<string name="development_settings_title">Opciones de Desarrollador</string>
+<string name="quick_reply_title">Respuestas Rápidas</string>
+<string name="second_space">Segundo Espacio</string>
+<string name="miui_lab_settings">Laboratorio MIUI</string>
+<string name="system_app_settings">Aplicaciones del Sistema</string>
+<string name="applications_settings">Administrar Aplicaciones</string>
+<string name="xspace">Aplicaciones Duales</string>
+<string name="application_lock_name">Bloqueo de Aplicación</string>
+<string name="device_miui_version">Versión iOS</string>
+<string name="wifi_settings">WiFi</string>
+<string name="wifi_settings_category">Configuraciones de WiFi</string>
+<string name="wifi_settings_title">WiFi</string>
+<string name="wifi_quick_toggle_title">WiFi</string>
+<string name="wifi_setup_wizard_title">Selecciona Wi-Fi</string>
+<string name="wifi_select_network">Selecciona Wi-Fi</string>
+<string name="wifi_starting">Encendido de Wi-Fi</string>
+<string name="wifi_stopping">Desactivar WiFi</string>
+<string name="wifi_quick_toggle_summary">Enciende el WiFi</string>
+<string name="search_cloud_restore_section_title">Restaurar desde iCloud; iCloud; Copias de Seguridad de iCloud</string>
+<string name="search_micloud">Sincronización; iCloud; Sincronización de iCloud; Sincronización con iCloud</string>
+<string name="xiaomi_cloud_service_description">iCloud sincroniza tus contactos y fotos, realiza una copia de seguridad de tus aplicaciones y configuraciones, y te ayuda a encontrar tu teléfono usando Buscar iPhone.</string>
+<string name="login_account_dialog_title">Inicia Sesión en tu iPhone</string>
+<string name="login_account_summary">ID de Apple, iCloud, iTunes &; Tienda de Aplicaciones</string>
+<string name="login_action">Registrarse</string>
+<dimen name="preference_account_avatar_size">40.0dip</dimen>
+
+</MIUI_Theme_Values>

@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<MIUI_Theme_Values>
+White
+<dimen name="qs_tile_icon_size">24.0dip</dimen>
+<color name="qs_control_big_tile_blue_bg">#ff007aff</color>Hitesh
+<color name="qs_control_big_tile_blue_bg_off">#91000000</color>
+<color name="qs_control_big_tile_blue_bg_disable">#91000000</color>
+<color name="qs_control_big_tile_green_bg">#ff4cda64</color>
+<color name="qs_control_big_tile_green_bg_off">#91000000</color>
+<color name="qs_control_big_tile_green_bg_disable">#91000000</color>
+<color name="qs_control_big_tile_orange_bg">#ffff9501</color>
+<color name="qs_control_big_tile_orange_bg_off">#91000000</color>
+<color name="qs_control_big_tile_orange_bg_disable">#91000000</color>
+<color name="qs_control_tile_icon_disabled_color">#91000000</color>
+
+<color name="qs_control_brightness_progress_color">#ffffffff</color>
+<color name="qs_brightness_background_color">#91000000</color>
+
+<color name="action_bar_tab_text_color_normal_light" package="miui">#91000000</color>
+<color name="highlight_normal_light" package="miui">#91000000</color>
+<color name="qs_customize_title_text_color">#ffffffff</color> 
+<color name="qs_control_tile_label_text_color">#ffffffff</color>
+<color name="qs_control_big_tile_title_color">#ffffffff</color>
+<color name="qs_control_big_tile_sub_title_color">#ffffffff</color>
+<color name="qs_control_big_tile_title_color_off">#ffffffff</color>
+<color name="qs_control_big_tile_sub_title_color_off">#ffffffff</color>
+
+<color name="cc_qs_tile_icon_color">#FFFFFFFF</color>
+<color name="cc_qs_tile_icon_color_off">#FFFFFFFF</color>
+<color name="qs_tile_icon_bg_enabled_color">#99ffffff</color>
+<color name="qs_control_brightness_low_color">#ffffffff</color>Icon color in brightness bar
+  
+  <color name="qs_brightness_progress_color">#00000000</color>
+  <color name="sliding_btn_slider_off_normal_color_light" package="miui">#ffffffff</color>
+  <color name="fold_dividing_line_color">#19ffffff</color>
+  <color name="notification_media_action_color">#ff151515</color>
+  <color name="status_bar_expanded_weather">#ffffffff</color>
+  <color name="notification_actions_button_color">#ff0099ff</color>
+  <color name="notification_guts_bg_color">#ff222222</color>
+  <color name="qs_tile_label_text_color_secondary">#4dffffff</color>
+  <color name="qs_tile_icon_disabled_color">#ffffffff</color>
+  <color name="sliding_btn_slider_on_pressed_color_light" package="miui">#ffffffff</color>
+  <color name="fold_footer_text_color">#ffffffff</color>
+  <color name="qs_panel_expand_indicator_color">#33ffffff</color>
+  <color name="recent_tick_anim_color">#ff0099ff</color>
+  <color name="secondary_text_default_material_dark" package="android">#e6ffffff</color>
+  <color name="qs_detail_item_primary_text_color">#ffffffff</color>
+  <color name="qs_detail_buttons_text_color">#ffffffff</color>
+  <color name="qs_detail_item_selected_color">#ff0099ff</color>
+  <color name="qs_footer_data_usage_divider_color">#19ffffff</color>
+  <color name="notification_overflow_number_color">#ff007aff</color>
+  <color name="qs_tile_label_text_color">#ffffffff</color>
+  <color name="qs_detail_empty_icon_color">#66ffffff</color>
+  <color name="sliding_btn_slider_off_pressed_color_light" package="miui">#ffffffff</color>
+  <color name="qs_detail_title_text_color">#ffffffff</color>
+  <color name="notification_panel_background_keyguard">#4AFFFFFF</color>
+  <color name="sliding_button_bar_off_light" package="miui">#26ffffff</color>
+  <color name="qs_detail_empty_text_color">#66ffffff</color>
+  <color name="qs_divider_color">#19ffffff</color>
+  <color name="sliding_button_bar_on_light" package="miui">#FF59DB6F</color>
+  <color name="qs_footer_data_usage_text_color">#76ffffff</color>
+  <color name="hybrid_overflow_number_bg">#00000000</color>
+  <color name="accent_color_light" package="miui">#ff0099FF</color>
+  <color name="qs_detail_item_secondary_text_color">#80ffffff</color>
+  <color name="notification_setting_button_color">#ff0099ff</color>
+  <color name="txt_memory_info_color">#ccffffff</color>
+  <bool name="status_bar_color_enable">false</bool>
+  <bool name="status_bar_hide_volte">true</bool>
+  <color name="qs_tile_icon_bg_disabled_color">#00000000</color>
+  <color name="sliding_btn_slider_on_normal_color_light" package="miui">#ffffffff</color>
+  <color name="task_manager_text">#e6ffffff</color>
+  <color name="notification_expanded_bg_divider_color">#00000000</color>
+  <color name="fold_header_text_color">#ffffffff</color>
+  <color name="qs_tile_icon_border_color">#00ffffff</color>
+  <color name="qs_tile_icon_enabled_color">#ffffffff</color>
+  <color name="qs_tile_app_label_text_color">#66ffffff</color>
+  <color name="qs_page_indicator_dot_color">#ffffffff</color>
+  <color name="qs_customize_title_text_color">#ffffffff</color>
+<dimen name="qs_panel_expand_indicator_height">-30dp</dimen>
+<dimen name="round_cornor_padding">15.0dp</dimen>Distance between icons on both sides of the status bar
+<dimen name="qs_panel_expand_indicator_width">-30dp</dimen>
+<string name="hour_minute_time_format">HH:mm</string>
+<string name="keyguard_charging_info_last_charge_time">M/d H:mm</string>
+<string name="fmt_time_12hour_minute_pm" package="miui">h:mm aa</string>
+<string name="fmt_time_24hour_minute" package="miui">H.mm</string>
+<string name="status_bar_clock_date_time_format">H:mm</string>>
+<string name="status_bar_clock_date_format">EE, d MMM                                  HH:mm</string>
+<string name="status_bar_clock_date_format_12">EE, MMM d                                  h:mm a</string>
+<string name="status_bar_clock_date_time_format">EE, d MMM                                  HH:mm</string>
+<string name="status_bar_clock_date_time_format_12">EE, MMM d                                  h:mm a</string>  
+<dimen name="qs_brightness_icon_margin">6dp</dimen>
+<dimen name="qs_panel_expand_indicator_width">0dp</dimen>
+<dimen name="notch_expanded_header_height">180dp</dimen>
+<dimen name="notch_expanded_clock_size">80dp</dimen>
+<dimen name="expanded_weather_size">18dp</dimen>
+<dimen name="expanded_notification_header_start">105dp</dimen>
+<dimen name="expanded_notification_weather_temperature_right">35dp</dimen>
+<dimen name="notification_min_height_legacy">22dp</dimen>
+<dimen name="qs_quick_panel_content_padding_top">-150dp</dimen>
+<dimen name="recents_task_view_rounded_corners_radius">15.0dp</dimen>
+<dimen name="qs_divider_margin_horizontal">0dp</dimen>
+<dimen name="qs_divider_size">0dp</dimen>
+<dimen name="qs_footer_height">15.0dp</dimen>
+<dimen name="qs_footer_data_usage_icon_size">00000000.1dp</dimen>
+<dimen name="qs_footer_line_margin_start">100dp</dimen>
+<dimen name="notification_divider_height">8.0dp</dimen>
+<dimen name="round_cornor_padding">15.0dp</dimen>Distance between icons on both sides of the status bar
+<dimen name="status_bar_clock_size">14.0dp</dimen> Status bar clock text size
+<dimen name="statusbar_padding_start">0dp</dimen> Status bar time left
+<dimen name="statusbar_battery_size">15.0dp</dimen>Status bar battery size
+<!--<dimen name="statusbar_carrier_size">15.0dp</dimen--> Network speed in status bar
+<dimen name="statusbar_padding_end">0dp</dimen> Status bar battery from right
+<bool name="status_bar_hide_volte">true</bool> Hide HD
+
+  <color name="notification_panel_background">#00000000</color>
+  <color name="qs_detail_content_background_color">#00000000</color> 
+  <color name="qs_panel_background_color">#00000000</color>  
+  <color name="notification_expanded_bg_color">#00000000</color>
+  <color name="notification_expanded_bg_divider_color">#00000000</color>
+  <color name="qs_customize_content_background_color">#00000000</color>
+  <color name="qs_panel_expand_indicator_color">#33ffffff</color>   
+  <dimen name="qs_brightness_dialog_height">50.0dp</dimen>  
+  <dimen name="qs_brightness_top_margin">20.0dp</dimen> 
+  <color name="qs_brightness_progress_color">#00000000</color>
+  
+<dimen name="miui_volume_column_width">35.0dp</dimen>
+<dimen name="miui_volume_ringer_icon_size">35.0dp</dimen>
+<dimen name="miui_volume_button_size">35.0dp</dimen>
+<dimen name="miui_volume_silence_button_height">35.0dp</dimen>
+<dimen name="miui_volume_column_width_expanded">35.0dp</dimen>
+<dimen name="miui_volume_bg_radius">10.0dp</dimen>
+<dimen name="miui_volume_footer_margin_top">10dp</dimen>
+<dimen name="miui_volume_column_height">140.0dp</dimen>Side volume bar height
+<color name="miui_volume_bg_color">#5f000000</color>#Volume bar background
+  
+</MIUI_Theme_Values>
