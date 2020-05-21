@@ -123,14 +123,14 @@ White
   <dimen name="qs_brightness_top_margin">20.0dp</dimen> 
   <color name="qs_brightness_progress_color">#00000000</color>
   
-<dimen name="miui_volume_column_width">45.0dp</dimen>
+<!-- <dimen name="miui_volume_column_width">45.0dp</dimen>
 <dimen name="miui_volume_ringer_icon_size">45.0dp</dimen>
 <dimen name="miui_volume_button_size">45.0dp</dimen>
 <dimen name="miui_volume_silence_button_height">45.0dp</dimen>
-<dimen name="miui_volume_column_width_expanded">45.0dp</dimen>
+<dimen name="miui_volume_column_width_expanded">45.0dp</dimen> -->
 <dimen name="miui_volume_bg_radius">10.0dp</dimen>
-<dimen name="miui_volume_footer_margin_top">10dp</dimen>
+<!-- <dimen name="miui_volume_footer_margin_top">10dp</dimen>
 <dimen name="miui_volume_column_height">160.0dp</dimen>Side volume bar height
-<color name="miui_volume_bg_color">#33ffffff</color>#Volume bar background
+<color name="miui_volume_bg_color">#33ffffff</color>#Volume bar background -->
   
 </MIUI_Theme_Values>
