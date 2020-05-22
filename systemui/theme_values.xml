@@ -82,7 +82,7 @@ White
 <string name="hour_minute_time_format">HH:mm</string>
 <string name="keyguard_charging_info_last_charge_time">M/d H:mm</string>
 <string name="fmt_time_12hour_minute_pm" package="miui">h:mm aa</string>
-<string name="fmt_time_24hour_minute" package="miui">H.mm</string>
+<string name="fmt_time_24hour_minute" package="miui">H:mm</string>
 <string name="status_bar_clock_date_time_format">H:mm</string>>
 <string name="status_bar_clock_date_format">EE, d MMM                                  HH:mm</string>
 <string name="status_bar_clock_date_format_12">EE, MMM d                                  h:mm a</string>
