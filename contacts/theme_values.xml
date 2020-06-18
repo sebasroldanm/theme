@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<MIUI_Theme_Values>
+<color name="dialer_digits_location_text_color">#ff007aff</color>
+<color name="t9_guide_text_fg_color">#ff007aff</color>
+<color name="high_light_text">#ff007aff</color>
+<color name="tab_color_startup">#00000000</color>
+<color name="dialer_menu_dialog_divider">#00000000</color>
+<color name="dialer_menu_item_bg_color">#00000000</color>
+<color name="tab_text_color_focused">#ffffffff</color>
+<color name="tab_text_color_unfocused">#ff007aff</color>
+<color name="dialpad_divider_color">#00a6a6a6</color>
+<color name="t9_list_item_text_highlight">#ff007aff</color>
+<color name="tab_color_yellowpage">#ff3498dc</color>
+<color name="tab_color_contacts">#ff3498dc</color>
+<color name="indexer_text_highlight">#ff000000</color>
+<color name="dialer_digits_text_color">#ff0077ff</color>
+<color name="contacts_accent_color">#00000000</color>
+<color name="contacts_accent_color_pressed">#00000000</color>
+<color name="dialer_title_text_color">#ff000000</color>
+<color name="dialer_accent_color">#00000000</color>
+<color name="tab_color_dialer">#00000000</color>
+<color name="action_bar_button_text_color">#ff007aff</color>
+<color name="title_ok_button_enable">#ff007aff</color>
+<color name="title_ok_button_disable">#4dffffff</color>
+<color name="action_mode_title_text_n">#ff000000</color>
+<color name="action_mode_title_text_p">#cd000000</color>
+<color name="action_mode_button_ok">#ff007aff</color>
+<color name="contact_detail_title_color">#ff3498dc</color>
+<color name="contact_detail_subtitle_color">#7f000000</color>
+<color name="contact_detail_list_item_primary_text_color">#ff3498dc</color>
+<bool name="show_default_contact_detail_photo_bg">true</bool>
+<color name="contact_detail_photo_mask_color">#ffffffff</color>
+<color name="contact_detail_photo_default_color">#ffffffff</color>
+<color name="v5_title_text_color_light">#ff000000</color>
+<color name="vector_bg_major_color0">#ff3498dc</color>
+<color name="vector_bg_major_color1">#ff3498dc</color>
+<color name="vector_bg_major_color2">#ff3498dc</color>
+<color name="vector_bg_major_color3">#ff3498dc</color>
+<color name="vector_bg_major_color4">#ff3498dc</color>
+<color name="vector_bg_major_color5">#ff3498dc</color>
+<color name="vector_bg_major_color6">#ff3498dc</color>
+<color name="vector_bg_major_color7">#ff3498dc</color>
+<color name="list_divider_solid">#00000000</color>
+<color name="list_divider_stroke">#00000000</color>
+<color name="quickcontact_unknown_window_title_bg_normal">#00000000</color>
+<color name="quickcontact_unknown_window_title_bg_pressed">#00000000</color>
+<color name="quickcontact_window_title_bg_normal">#00000000</color>
+<color name="quickcontact_window_title_bg_pressed">#00000000</color>
+<color name="quickcontact_window_track_bg">#00000000</color>
+<color name="quickcontact_list_item_primary_text_color">#ff3498dc</color>
+<color name="quick_contact_tab_text_color_disable_dark">#663498dc</color>
+<color name="quick_contact_tab_text_color_pressed_dark">#ff3498dc</color>
+<color name="quick_contact_tab_text_color_selected_dark">#ff3498dc</color>
+<color name="quick_contact_tab_text_color_normal_dark">#663498dc</color>
+<color name="quick_contact_name_text_color">#ff3498dc</color>
+<dimen name="contact_detail_title_text_size">25.0sp</dimen>
+<dimen name="contact_detail_subtitle_text_size">15.0sp</dimen>
+<dimen name="contact_tile_divider_padding">0.0dip</dimen>
+<dimen name="contact_detail_more_indemnity_text_size">15.0sp</dimen>
+<dimen name="contact_detail_action_bar_padding">13.0dip</dimen>
+<dimen name="contact_detail_action_bar_height">45.0dip</dimen>
+<dimen name="contact_detail_title_container_margin_top">30.0dip</dimen>
+<dimen name="people_activity_dialer_title_height">65.0dip</dimen>
+<color name="action_bar_title_text_color_dark" package="miui">#ff000000</color>
+<color name="action_mode_button_text_color_normal_dark" package="miui">#ff007aff</color>
+<color name="action_button_text_color_normal_dark" package="miui">#ff007aff</color>
+<color name="action_mode_title_button_text_color_normal_dark" package="miui">#ff007aff</color>
+<color name="action_mode_title_default_button_text_color_normal_dark" package="miui">#ff007aff</color>
+<color name="action_mode_title_text_color_light" package="miui">#ff000000</color>
+<color name="action_mode_title_text_color_dark" package="miui">#ff000000</color>
+<integer name="window_translucent_status" package="miui">#00000001</integer>
+<string name="search_input_hint"> </string>
+</MIUI_Theme_Values>
