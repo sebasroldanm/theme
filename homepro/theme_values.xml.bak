@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<MIUI_Theme_Values>
+
+<color name="folder_title_text_shadow">#4D000000</color>
+<color name="folder_title_text">#ffffffff</color>
+<color name="folder_title_text_dark">#ff000000</color>
+<color name="folder_background_mask">#00ffffff</color>
+<color name="folder_cling_bg">#00000000</color>
+<color name="icon_title_text_dark">#ff000000</color>
+<color name="icon_message_text">#FFffffff</color>
+<dimen name="folder_item_horizontal_spacing">14.000000dp</dimen>
+<dimen name="folder_content_width">280.000000dp</dimen>
+<color name="icon_shadow">#000000</color>
+<color name="app_locate_mask_color">#19000000</color>
+
+<color name="folder_edge">#00ffffff</color>
+<color name="folder_icon_title_text">#ff000000</color>
+<dimen name="config_icon_height">61.00000dp</dimen>
+<dimen name="config_icon_width">61.00000dp</dimen>
+<dimen name="folder_preview_width">45.000000dp</dimen>
+<dimen name="folder_preview_height">45.000000dp</dimen>
+<dimen name="workspace_cell_padding_top">-1.000000dip</dimen>
+<dimen name="workspace_cell_height">89.000000dp</dimen>
+<dimen name="workspace_cell_width">97.000000dp</dimen>
+<dimen name="workspace_cell_padding_side">11.000000dp</dimen>
+<dimen name="workspace_cell_padding_bottom">107.000000dp</dimen>
+<dimen name="workspace_indicator_margin_bottom">97.000000dp</dimen>
+<dimen name="workspace_widget_cell_measure_width">100.000000dp</dimen>
+<dimen name="workspace_widget_cell_measure_height">90.000000dp</dimen>
+<dimen name="hotseats_height">100.0dip</dimen>
+<dimen name="hotseats_padding_top">3.0dip</dimen>
+<dimen name="hotseats_padding_bottom">-32.0dip</dimen>
+<dimen name="icon_title_padding_bottom">4.0dip</dimen>
+    <integer name="config_cell_count_x">4</integer>
+    <integer name="config_cell_count_y">6</integer>
+	<integer name="config_cell_count_x">4</integer>
+    <integer name="config_cell_count_y">6</integer>
+<string name="loading_desktop">HELLO</string>
+
+</MIUI_Theme_Values>
