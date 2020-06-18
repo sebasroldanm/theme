@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Icon version="1" frameRate="0" width="192" height="192" resDensity="480" extraResources="sw720-den320::0.7059,sw1080-den440::0.8823,sw1440-den640::1.1765" extraScales="sw720-den320:0.7083,sw1080-den440:0.875,sw1440-den640:1.1667" useVariableUpdater="DateTime.Minute" type="awesome">
+<VariableBinders>
+	<ContentProviderBinder name="weather" uri="content://weather/weather" columns="city_name,temperature,weather_type,wind,humidity,publish_time,weathernamesfrom,weathernamesto,tmplows,tmphighs" countName="hasweather" denpendency="selected_city">
+		<Variable name="weather_city" type="string" column="city_name" />
+		<Variable name="weather_temperature" type="int" column="temperature" />
+		<Variable name="w_id_0" type="int" column="weather_type" />
+		<Variable name="weather_wind" type="string" column="wind" />
+		<Variable name="weather_humidity" type="string" column="humidity" />
+		<Variable name="weather_publish_time" type="long" column="publish_time" />
+		<Variable name="weather_templow" type="int" column="tmplows" />
+		<Variable name="weather_temphigh" type="int" column="tmphighs" />
+		<Variable name="weather_temperature_str" type="string" column="temperature"/>
+		<Variable name="weatherfrom_1" type="string" column="weathernamesfrom" row="1" />
+		<Variable name="weatherto_1" type="string" column="weathernamesto" row="1" />
+		<Variable name="weather_templow1" type="int" column="tmplows" row="1" />
+		<Variable name="weather_temphigh1" type="int" column="tmphighs" row="1" />
+		<Variable name="weatherfrom_2" type="string" column="weathernamesfrom" row="2" />
+		<Variable name="weatherto_2" type="string" column="weathernamesto" row="2" />
+		<Variable name="weather_templow2" type="int" column="tmplows" row="2" />
+		<Variable name="weather_temphigh2" type="int" column="tmphighs" row="2" />
+		<Variable name="weatherfrom_3" type="string" column="weathernamesfrom" row="3" />
+		<Variable name="weatherto_3" type="string" column="weathernamesto" row="3" />
+		<Variable name="weather_templow3" type="int" column="tmplows" row="3" />
+		<Variable name="weather_temphigh3" type="int" column="tmphighs" row="3" />
+		<Variable name="weatherfrom_4" type="string" column="weathernamesfrom" row="4" />
+		<Variable name="weatherto_4" type="string" column="weathernamesto" row="4" />
+		<Variable name="weather_templow4" type="int" column="tmplows" row="4" />
+		<Variable name="weather_temphigh4" type="int" column="tmphighs" row="4" />
+	</ContentProviderBinder>
+</VariableBinders>
+	<Group>
+		<Var name="is_rain" expression="ge(#weather_id,4)*le(#weather_id,7)" />
+		<Var name="is_maxrain" expression="ge(#weather_id,8)*le(#weather_id,9)" />
+		<Var name="is_snow" expression="ge(#weather_id,12)*le(#weather_id,15)" />
+		<Var name="is_haze" expression="ge(#weather_id,24)" />
+
+		<Var name="icon_suffix" expression="ifelse(isnull(#weather_id),1,gt(#weather_id,17),1,#weather_id)" />
+		<Var name="icon_index" expression="ifelse(#is_rain,4,#is_maxrain,8,#is_snow,12,#is_haze,24,#icon_suffix)" />
+
+		<Image x="96" y="96" align="center" alignV="center" srcExp="'weather.png'" srcid="ifelse(gt(#w_id_0,25)+lt(#w_id_0,0),0,ifelse(ge(#w_id_0,4)*le(#w_id_0,6)+ge(#w_id_0,8)*le(#w_id_0,11)+eq(#w_id_0,25),4,ge(#w_id_0,13)*le(#w_id_0,17),13,ge(#w_id_0,18)*le(#w_id_0,21)+eq(#w_id_0,23),18,ifelse(not(#hasweather*len(@weather_temperature_str)*not(isnull(#w_id_0))),0,gt(#w_id_0,25),0,#w_id_0)))" />
+		<Text x="96" y="148" size="36" align="center" alignV="center" color="#ffffff" format="%d℃" paras="#weather_temperature" alpha="255"/>
+	</Group>
+</Icon>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Icon version="1" frameRate="0" width="182" height="182" screenWidth="1080" resDensity="480" extraResourcesDensity="320,440,480,640" extraResources="sw1536-den320:den440:1" extraScaleByDensity="320:0.6703,440:0.9231,640:1.2307" extraScales="sw1536-den320:0.9231">
+    <!-- 便签 -->
+	<ExternalCommands>
+        <!-- 初始化 -->
+        <Trigger action="init,present,back_home_cancel">
+            <VariableCommand name="useQuietImage" expression="1"/>
+            <AnimationCommand target="iconAni" command="play(400,400)"/>
+        </Trigger>
+        <!-- 回桌面初始化 -->
+        <Trigger action="back_home_start">
+            <VariableCommand name="useQuietImage" expression="0"/>
+            <AnimationCommand target="iconAni" command="play(0,0)"/>
+        </Trigger>
+        <!-- 回到桌面 -->
+        <Trigger action="back_home_finish">
+            <VariableCommand name="useQuietImage" expression="0"/>
+            <!-- 动画部分 -->
+            <AnimationCommand target="iconAni" command="play(0,400)"/>
+            <!-- 动态帧率 -->
+            <AnimationCommand target="panel_framerate_controller" command="play"/>
+        </Trigger>
+    </ExternalCommands>
+     <FramerateController name="panel_framerate_controller" initPause="true" loop="false">
+        <ControlPoint frameRate="0" time="0"/>
+        <ControlPoint frameRate="60" time="1"/>
+        <ControlPoint frameRate="60" time="400"/>
+        <ControlPoint frameRate="0" time="401"/>
+    </FramerateController>
+    <Var name="iconAni">
+        <VariableAnimation name="iconAnimation" initPause="true" loop="false">
+            <AniFrame value="0" time="0" easeType="QuadEaseOut"/>
+			<AniFrame value="1" time="400"/>
+            <Triggers>
+                <Trigger action="end" condition="#iconAnimation.current_frame == 400">
+                    <VariableCommand name="useQuietImage" expression="1"/>
+                </Trigger>
+            </Triggers>
+        </VariableAnimation>
+    </Var>
+	<Image x="0" y="0" src="notebg.png"/>
+	<Image x="25" y="38" src="1.png" pivotX="13" pivotY="13" scale="#iconAni"/>
+	<Image x="25" y="38+40" src="2.png" pivotX="13" pivotY="13" scale="#iconAni"/>
+	<Image x="25" y="38+80" src="3.png" pivotX="13" pivotY="13" scale="#iconAni"/>
+	<Group w="171" h="171" layered="true">
+		<Array x="0" y="0" count="4" indexName="__x1" >
+			<Group x="ifelse(#__x1==0||#__x1==2,(1-#iconAni),#__x1==1||#__x1==3,(#iconAni-1),0)*107" y="40*#__x1">
+				<Rectangle x="64" y="30" w="107" h="3" fillColor="#c2c2c8" />
+			</Group>
+		</Array>
+		<Image x="0" y="0" src="notebg.png" xfermode="dst_in"/>
+	</Group>
+</Icon>

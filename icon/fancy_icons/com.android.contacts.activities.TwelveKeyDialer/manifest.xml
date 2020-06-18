@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Icon version="1" frameRate="0" width="192" height="192" screenWidth="1080" resDensity="480" extraResources="sw720-den320::0.7407,sw1080-den440::0.9259,sw1440-den640::1.2346" extraScales="sw720-den320:0.7473,sw1080-den440:0.9231,sw1440-den640:1.2307">
+	<!-- 拨号 -->
+	<ExternalCommands>
+        <!-- 初始化 -->
+        <Trigger action="init,present,back_home_cancel">
+            <AnimationCommand target="iconAni" command="play(400,400)"/>
+            <VariableCommand name="useQuietImage" expression="1"/>
+        </Trigger>
+        <!-- 回桌面初始化 -->
+        <Trigger action="back_home_start" >
+            <AnimationCommand target="iconAni" command="play(0,0)"/>
+            <VariableCommand name="useQuietImage" expression="0"/>
+        </Trigger>
+        <!-- 回到桌面 -->
+        <Trigger action="back_home_finish">
+            <VariableCommand name="useQuietImage" expression="0"/>
+            <!-- 动画部分 -->
+            <AnimationCommand target="iconAni" targetIndex="1" command="play(0,400)"/>
+            <!-- 动态帧率 -->
+            <AnimationCommand target="panel_framerate_controller" command="play"/>
+        </Trigger>
+    </ExternalCommands>
+    <FramerateController name="panel_framerate_controller" initPause="true" loop="false">
+        <ControlPoint frameRate="0" time="0"/>
+        <ControlPoint frameRate="60" time="1"/>
+        <ControlPoint frameRate="60" time="700"/>
+        <ControlPoint frameRate="0" time="701"/>
+    </FramerateController>
+    <Var name="iconAni">
+        <VariableAnimation name="iconAnimation" initPause="true" loop="false">
+            <AniFrame value="60" time="0" easeType="SineEaseInOut"/>
+            <AniFrame value="0" time="400"/>
+            <Triggers>
+                <Trigger action="end" condition="#iconAnimation.current_frame == 400">
+                    <VariableCommand name="useQuietImage" expression="1"/>
+                </Trigger>
+            </Triggers>
+        </VariableAnimation>
+    </Var>
+    <Image x="96" y="96" align="center" alignV="center" src="phoneBg.png"/> 
+    <Image x="96" y="96" align="center" alignV="center" pivotX="55" pivotY="55" rotation="#iconAni" src="phoneShape.png"/>
+</Icon>
