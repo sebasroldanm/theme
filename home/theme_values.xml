@@ -7,8 +7,8 @@ Don't remove credit in description theme
 
 <dimen name="config_icon_height">75.0dp</dimen>
 <dimen name="config_icon_width">75.0dp</dimen>
-<dimen name="folder_preview_width">41.000000dp</dimen>
-<dimen name="folder_preview_height">41.000000dp</dimen>
+<dimen name="folder_preview_width">54.000000dp</dimen>
+<dimen name="folder_preview_height">54.000000dp</dimen>
 <dimen name="workspace_cell_padding_top">30.0dip</dimen>
 <dimen name="workspace_cell_padding_side">21.0dip</dimen>
 <dimen name="workspace_icon_text_size">12.0sp</dimen>
