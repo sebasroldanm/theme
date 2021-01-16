@@ -1,4 +1,4 @@
-# IOS style theme for MIUI 12
+# iOS style theme for MIUI 12
 
 _Theme for MIUI 12 in the style of iOS, this modified (credits at the end)._
 
